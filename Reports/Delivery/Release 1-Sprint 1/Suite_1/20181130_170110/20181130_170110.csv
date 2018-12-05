@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Suite_1,Chrome 70.0.3538.102,,2018-11-30 17:01:12,2018-11-30 17:01:29,17.290s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variable,Chrome 70.0.3538.102,,2018-11-30 17:01:12,2018-11-30 17:01:29,16.909s,PASSED
+Start listener action : beforeTestCase,Chrome 70.0.3538.102,,2018-11-30 17:01:13,2018-11-30 17:01:23,10.476s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-30 17:01:23,2018-11-30 17:01:23,0.084s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,,2018-11-30 17:01:23,2018-11-30 17:01:23,0.056s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-30 17:01:23,2018-11-30 17:01:24,0.211s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-30 17:01:24,2018-11-30 17:01:24,0.140s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-30 17:01:24,2018-11-30 17:01:27,3.718s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 70.0.3538.102,,2018-11-30 17:01:27,2018-11-30 17:01:27,0.025s,PASSED
+verifyMatch,Chrome 70.0.3538.102,,2018-11-30 17:01:27,2018-11-30 17:01:27,0.025s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-30 17:01:27,2018-11-30 17:01:29,1.961s,PASSED
