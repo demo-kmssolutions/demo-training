@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with default value of variables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cb3f845-e40b-4977-9d4c-a92ac85bba96</testCaseGuid>
+   <variable>
+      <defaultValue>'demo-kmssolutions'</defaultValue>
+      <description></description>
+      <id>b213d858-686b-488c-87a8-57e0c4f0f2c6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kms@2018'</defaultValue>
+      <description></description>
+      <id>432c1bcb-4a7d-4dc8-9f01-d26217ed0a6a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

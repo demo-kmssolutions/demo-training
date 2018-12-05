@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Suite_1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-30T17:01:10</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8eeaf551-28eb-4df1-a4a4-488346e05265</testSuiteGuid>
+   <testCaseLink>
+      <guid>a60437d0-77f2-4421-977e-924156e0db95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0aa23540-81f0-42c2-a999-c07f2e810143</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1455ea1-43fe-4b16-a9f5-5427a08db21d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
