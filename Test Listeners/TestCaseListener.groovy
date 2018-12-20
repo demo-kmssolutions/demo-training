@@ -28,10 +28,10 @@ class TestCaseListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-	def beforeTestCase(TestCaseContext testCaseContext) {
-	  WebUI.openBrowser('');
-    WebUI.maximizeWindow();
-	  WebUI.navigateToUrl(GlobalVariable.URL_default);
+	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl(GlobalVariable.G_JIRAKatalon_URL);
 	}
 
 	/**
@@ -39,7 +39,7 @@ class TestCaseListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	def afterTestCase(TestCaseContext testCaseContext) {
-		WebUI.closeBrowser()
+	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+
 	}
 }

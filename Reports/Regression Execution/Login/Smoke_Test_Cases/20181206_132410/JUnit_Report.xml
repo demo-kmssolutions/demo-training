@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_Test_Cases" time="34" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke_Test_Cases" tests="2" failures="0" errors="0" time="34" timestamp="2018-12-06 13:24:16" hostname="hungtran - GLKV1G2.kms.com.vn" id="Test Suites/Regression Execution/Login/Smoke_Test_Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\Login\\Smoke_Test_Cases\\20181206_132410"/>
+         <property name="logFiles" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\Login\\Smoke_Test_Cases\\20181206_132410\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hungtran - GLKV1G2.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="ee140c1b7fc3bd35dc645c2f9d0baa55"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with default value of variables" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with default value of variables" status="PASSED">
+         <system-out><![CDATA[2018-12-06 13:24:17 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with default value of variables: Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with default value of variables
+
+2018-12-06 13:24:17 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'http://github.com/login' successfully
+
+2018-12-06 13:24:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-06 13:24:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 13:24:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-06 13:24:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 13:24:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://github.com/login' successfully
+
+2018-12-06 13:24:34 - [MESSAGE][PASSED] - Navigate to 'http://github.com/login' successfully
+
+2018-12-06 13:24:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-06 13:24:34 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-06 13:24:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign in to GitHub' is present on page 
+
+2018-12-06 13:24:34 - [MESSAGE][PASSED] - Text 'Sign in to GitHub' is present on page 
+
+2018-12-06 13:24:34 - [TEST_STEP][PASSED] - setText: Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-06 13:24:34 - [MESSAGE][PASSED] - Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-06 13:24:34 - [TEST_STEP][PASSED] - setText: Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-06 13:24:34 - [MESSAGE][PASSED] - Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-06 13:24:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-06 13:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-06 13:24:37 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'GitHub'
+
+2018-12-06 13:24:37 - [MESSAGE][PASSED] - Current window's title is: 'GitHub'
+
+2018-12-06 13:24:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-06 13:24:37 - [MESSAGE][PASSED] - Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-06 13:24:37 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2018-12-06 13:24:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-12-06 13:24:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables" status="PASSED">
+         <system-out><![CDATA[2018-12-06 13:24:38 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables: Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables
+
+2018-12-06 13:24:38 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'http://github.com/login' successfully
+
+2018-12-06 13:24:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-06 13:24:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 13:24:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-12-06 13:24:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 13:24:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://github.com/login' successfully
+
+2018-12-06 13:24:47 - [MESSAGE][PASSED] - Navigate to 'http://github.com/login' successfully
+
+2018-12-06 13:24:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-06 13:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-06 13:24:47 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign in to GitHub' is present on page 
+
+2018-12-06 13:24:47 - [MESSAGE][PASSED] - Text 'Sign in to GitHub' is present on page 
+
+2018-12-06 13:24:47 - [TEST_STEP][PASSED] - setText: Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-06 13:24:48 - [MESSAGE][PASSED] - Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-06 13:24:48 - [TEST_STEP][PASSED] - setText: Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-06 13:24:48 - [MESSAGE][PASSED] - Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-06 13:24:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-06 13:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-06 13:24:50 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'GitHub'
+
+2018-12-06 13:24:50 - [MESSAGE][PASSED] - Current window's title is: 'GitHub'
+
+2018-12-06 13:24:50 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-06 13:24:50 - [MESSAGE][PASSED] - Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-06 13:24:50 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2018-12-06 13:24:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-12-06 13:24:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 13:24:16 - [TEST_SUITE][PASSED] - Smoke_Test_Cases: Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

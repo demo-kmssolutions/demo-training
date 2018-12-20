@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_API_reqres_list_users_validation_(using Variables)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>949cbc92-c649-4757-9449-755e98f9c7dd</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>697709ee-70d5-41ba-af9d-116af5670571</id>
+      <masked>false</masked>
+      <name>page</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>4482e27b-2996-481a-84fc-5638ac949119</id>
+      <masked>false</masked>
+      <name>per_page</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>c7c84919-4f5e-45ec-ab19-4c3992e71483</id>
+      <masked>false</masked>
+      <name>user_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'George'</defaultValue>
+      <description></description>
+      <id>56d9d8a4-aada-4c3d-9748-a19be9c2b9f7</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bluth'</defaultValue>
+      <description></description>
+      <id>f90d9219-f3d4-4ab0-8e5d-ab15e8649da6</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg'</defaultValue>
+      <description></description>
+      <id>4420dacf-33bb-4138-be9a-df789ce90527</id>
+      <masked>false</masked>
+      <name>avatar</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>c45bd0cc-600b-4d18-920c-df598d709f80</id>
+      <masked>false</masked>
+      <name>pos</name>
+   </variable>
+</TestCaseEntity>

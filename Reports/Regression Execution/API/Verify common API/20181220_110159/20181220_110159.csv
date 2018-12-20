@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify common API,,,2018-12-20 11:02:03,2018-12-20 11:02:10,7.064s,FAILED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data),,,2018-12-20 11:02:04,2018-12-20 11:02:07,3.249s,FAILED
+Start listener action : beforeTestCase,,,2018-12-20 11:02:04,2018-12-20 11:02:04,0.039s,PASSED
+"Statement - responseListUsers = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page]))",,,2018-12-20 11:02:05,2018-12-20 11:02:07,2.410s,PASSED
+verifyResponseStatusCode,,Verify Status Code,2018-12-20 11:02:07,2018-12-20 11:02:07,0.028s,PASSED
+verifyElementPropertyValue,,Verify response result of users API,2018-12-20 11:02:07,2018-12-20 11:02:07,0.200s,FAILED
+Start listener action : afterTestCase,,,2018-12-20 11:02:07,2018-12-20 11:02:07,0.001s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data),,,2018-12-20 11:02:07,2018-12-20 11:02:09,1.222s,FAILED
+Start listener action : beforeTestCase,,,2018-12-20 11:02:07,2018-12-20 11:02:07,0.001s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page]))",,,2018-12-20 11:02:08,2018-12-20 11:02:09,0.725s,PASSED
+verifyResponseStatusCode,,Verify Status Code,2018-12-20 11:02:09,2018-12-20 11:02:09,0.003s,PASSED
+verifyElementPropertyValue,,Verify response result,2018-12-20 11:02:09,2018-12-20 11:02:09,0.020s,FAILED
+Start listener action : afterTestCase,,,2018-12-20 11:02:09,2018-12-20 11:02:09,0.002s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables),,,2018-12-20 11:02:09,2018-12-20 11:02:10,1.307s,PASSED
+Start listener action : beforeTestCase,,,2018-12-20 11:02:09,2018-12-20 11:02:09,0.002s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page]))",,,2018-12-20 11:02:09,2018-12-20 11:02:10,0.756s,PASSED
+verifyResponseStatusCode,,Verify Status Code,2018-12-20 11:02:10,2018-12-20 11:02:10,0.005s,PASSED
+verifyElementPropertyValue,,Verify response result,2018-12-20 11:02:10,2018-12-20 11:02:10,0.021s,PASSED
+verifyElementPropertyValue,,,2018-12-20 11:02:10,2018-12-20 11:02:10,0.023s,PASSED
+verifyElementPropertyValue,,,2018-12-20 11:02:10,2018-12-20 11:02:10,0.018s,PASSED
+verifyElementPropertyValue,,,2018-12-20 11:02:10,2018-12-20 11:02:10,0.019s,PASSED
+verifyElementPropertyValue,,,2018-12-20 11:02:10,2018-12-20 11:02:10,0.020s,PASSED
+Start listener action : afterTestCase,,,2018-12-20 11:02:10,2018-12-20 11:02:10,0.001s,PASSED

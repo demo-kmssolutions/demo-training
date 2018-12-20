@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,,,2018-12-19 17:20:22,2018-12-19 17:20:24,1.994s,FAILED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login with default value of variables,,,2018-12-19 17:20:23,2018-12-19 17:20:24,0.963s,FAILED
+Start listener action : beforeTestCase,,,2018-12-19 17:20:23,2018-12-19 17:20:23,0.013s,PASSED
+waitForElementVisible,,,2018-12-19 17:20:23,2018-12-19 17:20:24,0.548s,FAILED
+Start listener action : afterTestCase,,,2018-12-19 17:20:24,2018-12-19 17:20:24,0.002s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login with global variables,,,2018-12-19 17:20:24,2018-12-19 17:20:24,0.273s,FAILED
+Start listener action : beforeTestCase,,,2018-12-19 17:20:24,2018-12-19 17:20:24,0.002s,PASSED
+waitForElementVisible,,,2018-12-19 17:20:24,2018-12-19 17:20:24,0.009s,FAILED
+Start listener action : afterTestCase,,,2018-12-19 17:20:24,2018-12-19 17:20:24,0.003s,PASSED

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>reqres_users</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>981e4134-6874-44c2-8b2a-304cce0e202b</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1 3 1 George Bluth https%3A%2F%2Fs3.amazonaws.com%2Fuifaces%2Ffaces%2Ftwitter%2Fcalebogden%2F128.jpg 0</data>
+   <data>1 3 2 Janet Weaver https%3A%2F%2Fs3.amazonaws.com%2Fuifaces%2Ffaces%2Ftwitter%2Fjosephstein%2F128.jpg 1</data>
+   <data>1 3 3 Emma Wong https%3A%2F%2Fs3.amazonaws.com%2Fuifaces%2Ffaces%2Ftwitter%2Folegpogodaev%2F128.jpg 2</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>page</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>per_page</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>user_id</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>first_name</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>last_name</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>avatar</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>position_user</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

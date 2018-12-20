@@ -7,16 +7,41 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'github.com/login'</initValue>
-      <name>URL_default</name>
+      <name>G_git_URL_default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'demo-kmssolutions'</initValue>
-      <name>username_default</name>
+      <name>G_git_username_default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Kms@2018'</initValue>
-      <name>password_default</name>
+      <name>G_password_default</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.107.73:7080/'</initValue>
+      <name>G_TheInternetTestingSite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>G_Timeout_Small</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>G_Time_Out_Large</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://reqres.in'</initValue>
+      <name>G_reqres_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL of the Application Under Test (AUT)</description>
+      <initValue>'https://katalon.atlassian.net'</initValue>
+      <name>G_JIRAKatalon_URL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

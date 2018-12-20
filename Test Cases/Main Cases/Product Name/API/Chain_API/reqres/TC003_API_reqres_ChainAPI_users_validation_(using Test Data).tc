@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_API_reqres_ChainAPI_users_validation_(using Test Data)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2b27380-d917-4694-bc16-c7d27d091806</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a56c9ade-4276-49d0-99b2-ef2b43a9d391</id>
+      <masked>false</masked>
+      <name>page</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd023a18-d07d-42bb-b311-51a1abca068c</id>
+      <masked>false</masked>
+      <name>per_page</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a982492-9c68-45ed-bbdb-6c52e2318a56</id>
+      <masked>false</masked>
+      <name>user_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f8765f6-8a4f-4e41-b08b-f6c960034239</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>391915d8-706e-4e3a-b6a3-4c9fd80c4453</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>989cc34d-c322-4027-b8ef-85536a6a0676</id>
+      <masked>false</masked>
+      <name>avatar</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa6e1ebc-977b-43c4-9276-6f2118c283f7</id>
+      <masked>false</masked>
+      <name>pos</name>
+   </variable>
+</TestCaseEntity>

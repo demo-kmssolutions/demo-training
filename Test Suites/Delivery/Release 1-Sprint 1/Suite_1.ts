@@ -15,7 +15,7 @@
       <guid>a60437d0-77f2-4421-977e-924156e0db95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables</testCaseId>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login with global variables</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,Chrome 71.0.3578.98,,2018-12-19 17:23:30,2018-12-19 17:24:32,1m - 1.766s,FAILED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login with default value of variables,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.535s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.010s,PASSED
+waitForElementVisible,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.319s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.002s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login with global variables,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.173s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.001s,PASSED
+waitForElementVisible,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.007s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.002s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_VerifyCheckPoint,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:47,15.235s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:31,0.001s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2018-12-19 17:23:31,2018-12-19 17:23:37,5.246s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,,2018-12-19 17:23:37,2018-12-19 17:23:46,9.497s,PASSED
+setText,Chrome 71.0.3578.98,,2018-12-19 17:23:46,2018-12-19 17:23:47,0.351s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:47,2018-12-19 17:23:47,0.002s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC_001_Login with global variables_SendKeys,Chrome 71.0.3578.98,,2018-12-19 17:23:47,2018-12-19 17:24:31,44.817s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-19 17:23:47,2018-12-19 17:23:47,0.002s,PASSED
+waitForElementVisible,Chrome 71.0.3578.98,,2018-12-19 17:23:47,2018-12-19 17:24:31,44.606s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-19 17:24:31,2018-12-19 17:24:31,0.002s,PASSED

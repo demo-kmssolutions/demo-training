@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Smoke_Test_Cases</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-12-20T10:10:55</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f3e2c344-68c3-4e3d-bf41-e5959945e2ba</testSuiteGuid>
+   <testCaseLink>
+      <guid>a7d12248-2425-457d-a7c0-766d056dacf1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login with default value of variables</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b213d858-686b-488c-87a8-57e0c4f0f2c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>432c1bcb-4a7d-4dc8-9f01-d26217ed0a6a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce4eba05-f29a-4f94-acbd-0bd466e84e9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login with global variables</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0aa23540-81f0-42c2-a999-c07f2e810143</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1455ea1-43fe-4b16-a9f5-5427a08db21d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>642263c5-6475-4ffc-8ece-fedad32a760f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_VerifyCheckPoint</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e63b11f-6618-4258-95c4-fad97715aaea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC_001_Login with global variables_SendKeys</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3137617-6aca-4669-8753-dd144def537a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5962d3a-6a99-4d68-a0ad-34daa5dc3d0d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

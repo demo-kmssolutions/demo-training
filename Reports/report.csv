@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,Chrome 70.0.3538.110,,2018-12-10 16:46:34,2018-12-10 16:47:12,38.023s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with default value of variables,Chrome 70.0.3538.110,,2018-12-10 16:46:34,2018-12-10 16:46:52,17.661s,PASSED
+Start listener action : beforeTestCase,Chrome 70.0.3538.110,,2018-12-10 16:46:34,2018-12-10 16:46:46,12.408s,PASSED
+waitForElementVisible,Chrome 70.0.3538.110,,2018-12-10 16:46:47,2018-12-10 16:46:47,0.369s,PASSED
+verifyTextPresent,Chrome 70.0.3538.110,,2018-12-10 16:46:47,2018-12-10 16:46:47,0.067s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-10 16:46:47,2018-12-10 16:46:47,0.319s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-10 16:46:47,2018-12-10 16:46:48,0.278s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-10 16:46:48,2018-12-10 16:46:50,2.405s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 70.0.3538.110,,2018-12-10 16:46:50,2018-12-10 16:46:50,0.092s,PASSED
+verifyMatch,Chrome 70.0.3538.110,,2018-12-10 16:46:50,2018-12-10 16:46:50,0.020s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.110,,2018-12-10 16:46:50,2018-12-10 16:46:52,1.394s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/Login with global variables,Chrome 70.0.3538.110,,2018-12-10 16:46:52,2018-12-10 16:47:12,19.872s,PASSED
+Start listener action : beforeTestCase,Chrome 70.0.3538.110,,2018-12-10 16:46:52,2018-12-10 16:47:07,15.571s,PASSED
+waitForElementVisible,Chrome 70.0.3538.110,,2018-12-10 16:47:07,2018-12-10 16:47:07,0.043s,PASSED
+verifyTextPresent,Chrome 70.0.3538.110,,2018-12-10 16:47:07,2018-12-10 16:47:07,0.049s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-10 16:47:07,2018-12-10 16:47:08,0.196s,PASSED
+setText,Chrome 70.0.3538.110,,2018-12-10 16:47:08,2018-12-10 16:47:08,0.123s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-10 16:47:08,2018-12-10 16:47:10,2.374s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 70.0.3538.110,,2018-12-10 16:47:10,2018-12-10 16:47:10,0.037s,PASSED
+verifyMatch,Chrome 70.0.3538.110,,2018-12-10 16:47:10,2018-12-10 16:47:10,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.110,,2018-12-10 16:47:10,2018-12-10 16:47:11,1.264s,PASSED

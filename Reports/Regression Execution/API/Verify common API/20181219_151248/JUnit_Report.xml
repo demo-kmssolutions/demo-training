@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify common API" time="7" tests="4" failures="0" errors="0">
+   <testsuite name="Verify common API" tests="4" failures="0" errors="0" time="7" timestamp="2018-12-19 15:12:50" hostname="hungtran - GLKV1G2.kms.com.vn" id="Test Suites/Regression Execution/API/Verify common API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\API\\Verify common API\\20181219_151248"/>
+         <property name="logFiles" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\API\\Verify common API\\20181219_151248\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hungtran - GLKV1G2.kms.com.vn"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+      </properties>
+      <testcase name="Test Cases/Main Cases/Product Name/API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" classname="Test Cases/Main Cases/Product Name/API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" status="PASSED">
+         <system-out><![CDATA[2018-12-19 15:12:50 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/reqres/TC001_API_reqres_list_users_validation_(using Variables): Test Cases/Main Cases/Product Name/API/reqres/TC001_API_reqres_list_users_validation_(using Variables)
+
+2018-12-19 15:12:50 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestCaseListener.beforeTestCase(...)' completed.
+
+2018-12-19 15:12:51 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page])): Send request successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestCaseListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" classname="Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" status="PASSED">
+         <system-out><![CDATA[2018-12-19 15:12:52 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)
+
+2018-12-19 15:12:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestCaseListener.beforeTestCase(...)' completed.
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page])): Send request successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestCaseListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" classname="Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" status="PASSED">
+         <system-out><![CDATA[2018-12-19 15:12:53 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestCaseListener.beforeTestCase(...)' completed.
+
+2018-12-19 15:12:53 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page])): Send request successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestCaseListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" classname="Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" status="PASSED">
+         <system-out><![CDATA[2018-12-19 15:12:54 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestCaseListener.beforeTestCase(...)' completed.
+
+2018-12-19 15:12:54 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users, [URL:internal.GlobalVariable.G_reqres_URL, page:page])): Send request successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-12-19 15:12:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-19 15:12:57 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestCaseListener.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-19 15:12:50 - [TEST_SUITE][PASSED] - Verify common API: Test Cases/Main Cases/Product Name/API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
