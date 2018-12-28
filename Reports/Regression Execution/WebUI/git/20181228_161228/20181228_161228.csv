@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+git,Chrome 71.0.3578.98,,2018-12-28 16:12:36,2018-12-28 16:12:48,11.323s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC001_Login with global variables_SendKeys,Chrome 71.0.3578.98,,2018-12-28 16:12:37,2018-12-28 16:12:48,10.975s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 16:12:37,2018-12-28 16:12:37,0.136s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-28 16:12:37,2018-12-28 16:12:41,4.340s,PASSED
+navigateToUrl($GlobalVariable.G_git_URL_default),Chrome 71.0.3578.98,,2018-12-28 16:12:41,2018-12-28 16:12:43,2.015s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",Chrome 71.0.3578.98,,2018-12-28 16:12:43,2018-12-28 16:12:43,0.102s,PASSED
+"verifyTextPresent(""Sign in to GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 16:12:43,2018-12-28 16:12:43,0.073s,PASSED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username""), username)",Chrome 71.0.3578.98,,2018-12-28 16:12:43,2018-12-28 16:12:44,0.170s,PASSED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password""), password)",Chrome 71.0.3578.98,,2018-12-28 16:12:44,2018-12-28 16:12:44,0.122s,PASSED
+"click(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in""))",Chrome 71.0.3578.98,,2018-12-28 16:12:44,2018-12-28 16:12:46,2.528s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2018-12-28 16:12:46,2018-12-28 16:12:46,0.021s,PASSED
+"verifyMatch(title, ""GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 16:12:46,2018-12-28 16:12:46,0.023s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-28 16:12:46,2018-12-28 16:12:48,1.153s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 16:12:48,2018-12-28 16:12:48,0.006s,PASSED

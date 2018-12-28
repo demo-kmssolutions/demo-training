@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005_Login_gitHub with global variables (Example for FLAKY TEST)</name>
+   <tag>FlakyTest</tag>
+   <comment></comment>
+   <testCaseGuid>2989b429-9044-452c-8587-d560a0c5207a</testCaseGuid>
+</TestCaseEntity>

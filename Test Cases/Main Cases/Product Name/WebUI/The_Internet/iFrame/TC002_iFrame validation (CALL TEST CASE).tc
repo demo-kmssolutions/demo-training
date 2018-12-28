@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_iFrame validation (CALL TEST CASE)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d96af8a-60c1-4695-8342-78771439773c</testCaseGuid>
+   <variable>
+      <defaultValue>'Your content goes here.'</defaultValue>
+      <description></description>
+      <id>05b58efe-2c98-4f9f-b48b-df289347b6c9</id>
+      <masked>false</masked>
+      <name>expectedDefaultContentiFrame</name>
+   </variable>
+</TestCaseEntity>

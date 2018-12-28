@@ -1,0 +1,166 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,Chrome 71.0.3578.98,,2018-12-28 14:29:12,2018-12-28 14:33:30,4m - 18.179s,ERROR
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding,Chrome 71.0.3578.98,,2018-12-28 14:29:12,2018-12-28 14:29:42,30.247s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:29:12,2018-12-28 14:29:26,14.043s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,Invoke Browser and Navigate to Katalon Analytics,2018-12-28 14:29:26,2018-12-28 14:29:32,5.737s,PASSED
+"navigateToUrl(""https://analytics.katalon.com/index.html"")",Chrome 71.0.3578.98,,2018-12-28 14:29:32,2018-12-28 14:29:39,6.974s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-28 14:29:39,2018-12-28 14:29:40,1.134s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username""), 10)",Chrome 71.0.3578.98,Wait til the user element present,2018-12-28 14:29:40,2018-12-28 14:29:40,0.151s,PASSED
+"setText(findTestObject(""Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username""), ""demo.kmssolutions@gmail.com"")",Chrome 71.0.3578.98,Enter the value of username,2018-12-28 14:29:40,2018-12-28 14:29:41,0.247s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password""), 10)",Chrome 71.0.3578.98,Wait til the password element present,2018-12-28 14:29:41,2018-12-28 14:29:41,0.047s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password""), ""7Dxoto1EjKfQbGop/Ov+1g=="")",Chrome 71.0.3578.98,Enter the value of password,2018-12-28 14:29:41,2018-12-28 14:29:41,0.225s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In""))",Chrome 71.0.3578.98,Wait til the login button clickable,2018-12-28 14:29:41,2018-12-28 14:29:41,0.067s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In""))",Chrome 71.0.3578.98,Click on the login button,2018-12-28 14:29:41,2018-12-28 14:29:41,0.117s,PASSED
+actual = getWindowTitle(),Chrome 71.0.3578.98,Get real title of the page,2018-12-28 14:29:41,2018-12-28 14:29:41,0.017s,PASSED
+"verifyMatch(actual, expected, false)",Chrome 71.0.3578.98,Verify actual and expected result,2018-12-28 14:29:41,2018-12-28 14:29:41,0.031s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,Close browser,2018-12-28 14:29:41,2018-12-28 14:29:42,1.097s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:29:42,2018-12-28 14:29:42,0.018s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables,Chrome 71.0.3578.98,,2018-12-28 14:29:42,2018-12-28 14:29:53,11.140s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:29:42,2018-12-28 14:29:42,0.012s,PASSED
+openBrowser(G_git_URL_default),Chrome 71.0.3578.98,,2018-12-28 14:29:43,2018-12-28 14:29:49,6.656s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-28 14:29:49,2018-12-28 14:29:50,1.135s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",Chrome 71.0.3578.98,,2018-12-28 14:29:50,2018-12-28 14:29:51,0.157s,PASSED
+"verifyTextPresent(""Sign in to GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 14:29:51,2018-12-28 14:29:51,0.063s,PASSED
+"sendKeys(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username""), username)",Chrome 71.0.3578.98,,2018-12-28 14:29:51,2018-12-28 14:29:51,0.220s,PASSED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password""), password)",Chrome 71.0.3578.98,,2018-12-28 14:29:51,2018-12-28 14:29:51,0.145s,PASSED
+"click(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in""))",Chrome 71.0.3578.98,,2018-12-28 14:29:51,2018-12-28 14:29:52,1.365s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2018-12-28 14:29:52,2018-12-28 14:29:52,0.014s,PASSED
+"verifyMatch(title, ""GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 14:29:52,2018-12-28 14:29:52,0.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-28 14:29:52,2018-12-28 14:29:53,1.160s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:29:53,2018-12-28 14:29:53,0.005s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables,Chrome 71.0.3578.98,,2018-12-28 14:29:54,2018-12-28 14:30:01,7.825s,ERROR
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:29:54,2018-12-28 14:29:54,0.006s,PASSED
+openBrowser(G_git_URL_default),Chrome 71.0.3578.98,,2018-12-28 14:29:54,2018-12-28 14:30:00,6.145s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-28 14:30:00,2018-12-28 14:30:01,1.128s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:01,0.054s,PASSED
+"verifyTextPresent(""Sign in to GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:01,0.060s,PASSED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username""), G_git_username_default)",Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:01,0.184s,PASSED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password""), password)",Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:01,0.014s,ERROR
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:01,0.006s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE),Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:13,11.730s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:01,2018-12-28 14:30:01,0.008s,PASSED
+openBrowser(G_git_URL_default),Chrome 71.0.3578.98,,2018-12-28 14:30:02,2018-12-28 14:30:09,7.025s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-28 14:30:09,2018-12-28 14:30:10,1.172s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",Chrome 71.0.3578.98,,2018-12-28 14:30:10,2018-12-28 14:30:10,0.048s,PASSED
+"verifyTextPresent(""Sign in to GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 14:30:10,2018-12-28 14:30:10,0.055s,PASSED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username""), G_git_username_default)",Chrome 71.0.3578.98,,2018-12-28 14:30:10,2018-12-28 14:30:10,0.165s,PASSED
+"setText(findTestObject(""Wrong Element""), ""Wrong Password"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-28 14:30:10,2018-12-28 14:30:10,0.294s,FAILED
+"setText(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password""), G_git_password_default)",Chrome 71.0.3578.98,,2018-12-28 14:30:10,2018-12-28 14:30:10,0.146s,PASSED
+"click(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in""))",Chrome 71.0.3578.98,,2018-12-28 14:30:10,2018-12-28 14:30:12,1.420s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2018-12-28 14:30:12,2018-12-28 14:30:12,0.012s,PASSED
+"verifyMatch(title, ""GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 14:30:12,2018-12-28 14:30:12,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-28 14:30:12,2018-12-28 14:30:13,1.183s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:13,0.015s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_005_Login_gitHub with global variables (Example for FLAKY TEST),Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:13,0.020s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:13,0.007s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:13,0.007s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Record/Google/REC_001_SearchGoogle,Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:23,9.640s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:13,0.006s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-28 14:30:13,2018-12-28 14:30:18,4.212s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 71.0.3578.98,,2018-12-28 14:30:18,2018-12-28 14:30:20,2.956s,PASSED
+"verifyElementPresent(findTestObject(""Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q""), 10)",Chrome 71.0.3578.98,,2018-12-28 14:30:20,2018-12-28 14:30:21,0.132s,PASSED
+"setText(findTestObject(""Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q""), ""Katalon"")",Chrome 71.0.3578.98,,2018-12-28 14:30:21,2018-12-28 14:30:21,0.180s,PASSED
+"click(findTestObject(""Test Object/Product Name/GoogleSearch/Page_Google/input_Xa_btnK""))",Chrome 71.0.3578.98,,2018-12-28 14:30:21,2018-12-28 14:30:23,1.971s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:23,2018-12-28 14:30:23,0.005s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login,Chrome 71.0.3578.98,,2018-12-28 14:30:23,2018-12-28 14:30:36,12.847s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:23,2018-12-28 14:30:23,0.008s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-28 14:30:23,2018-12-28 14:30:28,5.101s,PASSED
+"navigateToUrl(""https://analytics.katalon.com/index.html"")",Chrome 71.0.3578.98,,2018-12-28 14:30:28,2018-12-28 14:30:35,7.192s,PASSED
+"verifyElementPresent(findTestObject(""Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username""), 10)",Chrome 71.0.3578.98,,2018-12-28 14:30:35,2018-12-28 14:30:35,0.030s,PASSED
+"setText(findTestObject(""Page_Katalon Analytics (Beta)/input_Log In_username""), ""demo.kmssolutions@gmail.com"")",Chrome 71.0.3578.98,,2018-12-28 14:30:35,2018-12-28 14:30:36,0.282s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:36,0.006s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Record/Login/REC_002_LoginGoogle,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:36,0.187s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:36,0.005s,PASSED
+return null,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:36,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:36,0.005s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_001_User access Split Testing validation,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:44,8.323s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:36,0.005s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-28 14:30:36,2018-12-28 14:30:41,4.807s,PASSED
+navigateToUrl(G_TheInternetTestingSite),Chrome 71.0.3578.98,,2018-12-28 14:30:41,2018-12-28 14:30:44,2.911s,PASSED
+"verifyElementPresent(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing""), 10)",Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.083s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing""))",Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.209s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.053s,PASSED
+"verifyElementPresent(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest""), 10)",Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.030s,PASSED
+"actual = getText(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest""))",Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.043s,PASSED
+"verifyMatch(actual, ""No A/B Test"", false)",Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.000s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.003s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_002_User login validation,Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:45,1.128s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:44,0.003s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/Basic_Auth""))",Chrome 71.0.3578.98,,2018-12-28 14:30:44,2018-12-28 14:30:45,0.922s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:45,2018-12-28 14:30:45,0.004s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/the-internet/the-internet home page validation,Chrome 71.0.3578.98,,2018-12-28 14:30:45,2018-12-28 14:30:53,7.852s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:45,2018-12-28 14:30:45,0.004s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-28 14:30:45,2018-12-28 14:30:51,5.505s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-28 14:30:51,2018-12-28 14:30:52,1.136s,PASSED
+navigateToUrl(G_TheInternetTestingSite),Chrome 71.0.3578.98,,2018-12-28 14:30:52,2018-12-28 14:30:53,0.937s,PASSED
+waitForPageLoad(G_Time_Out_Large),Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.017s,PASSED
+"actualHeading = getText(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading""))",Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.052s,PASSED
+"verifyEqual(actualHeading, ""Welcome to the-internet"")",Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.012s,PASSED
+actualTitle = getWindowTitle(),Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.010s,PASSED
+"verifyEqual(actualTitle, expectedTitle)",Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.005s,PASSED
+,,,,,,
+Test Cases/Main Cases/Features/AA/Login Test/Test data hardcoding examples/Login with username and password specified in the test steps,Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:31:56,1m - 2.440s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:30:53,0.004s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elHeader""), 60)",Chrome 71.0.3578.98,,2018-12-28 14:30:53,2018-12-28 14:31:55,1m - 1.906s,PASSED
+"verifyTextPresent(""Log in to your account"", false)",Chrome 71.0.3578.98,,2018-12-28 14:31:55,2018-12-28 14:31:56,0.364s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:31:56,2018-12-28 14:31:56,0.005s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/DemoAUT/Verify dropdown list by Custom Keyword,Chrome 71.0.3578.98,,2018-12-28 14:31:56,2018-12-28 14:32:05,9.197s,ERROR
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:31:56,2018-12-28 14:31:56,0.005s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,Invoke Browser and Navigate to Demo Application,2018-12-28 14:31:56,2018-12-28 14:32:01,5.351s,PASSED
+navigateToUrl(G_TheInternetTestingSite),Chrome 71.0.3578.98,,2018-12-28 14:32:01,2018-12-28 14:32:04,2.848s,PASSED
+waitForPageLoad(15),Chrome 71.0.3578.98,Wait till the page load,2018-12-28 14:32:04,2018-12-28 14:32:04,0.013s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_dropdown""))",Chrome 71.0.3578.98,Click on Dropdown button,2018-12-28 14:32:04,2018-12-28 14:32:04,0.226s,PASSED
+waitForPageLoad(15),Chrome 71.0.3578.98,Wait till the page load,2018-12-28 14:32:04,2018-12-28 14:32:04,0.008s,PASSED
+"projects.demoUAT.VerifyExpectedAndActualOptionsInDropdown.VerifyExpectedAndActual(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/DropDown/select_Please select an option""), [""Please select an option"", ""Option 1"", ""Option 2""])",Chrome 71.0.3578.98,"Verifying the dropdown with expected and actual values
+",2018-12-28 14:32:04,2018-12-28 14:32:04,0.196s,PASSED
+"verifyElementNotClickable(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/DropDown/option_Please select an option""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,Verify the first option can not clickable,2018-12-28 14:32:04,2018-12-28 14:32:04,0.056s,PASSED
+"projects.demoUAT.VerifyDrodownValues_AlphabeticalOrder.verifyOptionsInDropdownInAphabeticalOrder(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/DropDown/select_Please select an option""))",Chrome 71.0.3578.98,Verify whether the values in the dropdown are in Alphabetical Order using Custom Keyword,2018-12-28 14:32:04,2018-12-28 14:32:05,0.280s,ERROR
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:32:05,2018-12-28 14:32:05,0.005s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC_001_Login with global variables_SendKeys,Chrome 71.0.3578.98,,2018-12-28 14:32:05,2018-12-28 14:33:07,1m - 2.516s,FAILED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:32:05,2018-12-28 14:32:05,0.004s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",Chrome 71.0.3578.98,,2018-12-28 14:32:05,2018-12-28 14:33:07,1m - 1.991s,PASSED
+"verifyTextPresent(""Sign in to GitHub"", false)",Chrome 71.0.3578.98,,2018-12-28 14:33:07,2018-12-28 14:33:07,0.323s,FAILED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:33:07,2018-12-28 14:33:07,0.004s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC001_iFrame validation (Hard Coding),Chrome 71.0.3578.98,,2018-12-28 14:33:07,2018-12-28 14:33:21,13.986s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:33:07,2018-12-28 14:33:07,0.005s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-28 14:33:08,2018-12-28 14:33:13,5.039s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-28 14:33:13,2018-12-28 14:33:14,1.151s,PASSED
+navigateToUrl(G_TheInternetTestingSite),Chrome 71.0.3578.98,,2018-12-28 14:33:14,2018-12-28 14:33:19,5.321s,PASSED
+waitForPageLoad(30),Chrome 71.0.3578.98,,2018-12-28 14:33:19,2018-12-28 14:33:19,0.013s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames""))",Chrome 71.0.3578.98,,2018-12-28 14:33:19,2018-12-28 14:33:19,0.284s,PASSED
+waitForPageLoad(30),Chrome 71.0.3578.98,,2018-12-28 14:33:19,2018-12-28 14:33:19,0.008s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame""))",Chrome 71.0.3578.98,,2018-12-28 14:33:19,2018-12-28 14:33:20,0.688s,PASSED
+waitForPageLoad(30),Chrome 71.0.3578.98,,2018-12-28 14:33:20,2018-12-28 14:33:20,0.010s,PASSED
+"switchToFrame(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/iframe_Formats_mce_0_ifr""), 10)",Chrome 71.0.3578.98,,2018-12-28 14:33:20,2018-12-28 14:33:20,0.069s,PASSED
+"actual = getText(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.""))",Chrome 71.0.3578.98,,2018-12-28 14:33:20,2018-12-28 14:33:20,0.047s,PASSED
+"verifyEqual(actual, ""Your content goes here."")",Chrome 71.0.3578.98,,2018-12-28 14:33:20,2018-12-28 14:33:20,0.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-28 14:33:20,2018-12-28 14:33:21,1.158s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:33:21,2018-12-28 14:33:21,0.004s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC002_iFrame validation (CALL TEST CASE),Chrome 71.0.3578.98,,2018-12-28 14:33:21,2018-12-28 14:33:30,8.412s,PASSED
+Start listener action : beforeTestCase,Chrome 71.0.3578.98,,2018-12-28 14:33:21,2018-12-28 14:33:21,0.006s,PASSED
+"callTestCase(findTestCase(""Common Cases/Simple Examples/the-internet/the-internet home page validation""), [""expectedHeading"":""Welcome to the-internet"", ""expectedTitle"":""The Internet""], STOP_ON_FAILURE)",Chrome 71.0.3578.98,Call test case navigate to the-internet homepage,2018-12-28 14:33:22,2018-12-28 14:33:27,5.845s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames""))",Chrome 71.0.3578.98,,2018-12-28 14:33:27,2018-12-28 14:33:28,0.247s,PASSED
+waitForPageLoad(G_Time_Out_Large),Chrome 71.0.3578.98,,2018-12-28 14:33:28,2018-12-28 14:33:28,0.006s,PASSED
+"click(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame""))",Chrome 71.0.3578.98,,2018-12-28 14:33:28,2018-12-28 14:33:28,0.783s,PASSED
+waitForPageLoad(G_Time_Out_Large),Chrome 71.0.3578.98,,2018-12-28 14:33:28,2018-12-28 14:33:28,0.009s,PASSED
+"switchToFrame(findTestObject(""Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/iframe_Formats_mce_0_ifr""), G_Timeout_Small)",Chrome 71.0.3578.98,,2018-12-28 14:33:28,2018-12-28 14:33:28,0.061s,PASSED
+"actual = getText(findTestObject(""Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.""))",Chrome 71.0.3578.98,,2018-12-28 14:33:28,2018-12-28 14:33:29,0.058s,PASSED
+"verifyEqual(actual, expectedDefaultContentiFrame)",Chrome 71.0.3578.98,,2018-12-28 14:33:29,2018-12-28 14:33:29,0.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-28 14:33:29,2018-12-28 14:33:30,1.186s,PASSED
+Start listener action : afterTestCase,Chrome 71.0.3578.98,,2018-12-28 14:33:30,2018-12-28 14:33:30,0.009s,PASSED

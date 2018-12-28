@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,,,2018-12-26 14:58:35,2018-12-26 14:58:37,1.428s,FAILED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC_001_Login with global variables_SendKeys,,,2018-12-26 14:58:36,2018-12-26 14:58:37,0.938s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 14:58:36,2018-12-26 14:58:36,0.158s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",,,2018-12-26 14:58:36,2018-12-26 14:58:37,0.386s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 14:58:37,2018-12-26 14:58:37,0.013s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Flaky_Test_Cases/TC001_Login flaky test,,,2018-12-26 14:58:37,2018-12-26 14:58:37,0.031s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 14:58:37,2018-12-26 14:58:37,0.015s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 14:58:37,2018-12-26 14:58:37,0.008s,PASSED

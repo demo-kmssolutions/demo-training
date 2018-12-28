@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_Test_Cases" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke_Test_Cases" tests="1" failures="0" errors="0" time="0" timestamp="2018-12-26 15:50:19" hostname="hungtran - GLKV1G2.kms.com.vn" id="Test Suites/Regression Execution/WebUI/Login/Smoke_Test_Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Login\\Smoke_Test_Cases\\20181226_155011"/>
+         <property name="logFiles" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Login\\Smoke_Test_Cases\\20181226_155011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hungtran - GLKV1G2.kms.com.vn"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Flaky_Test_Cases/TC001_Login flaky test" classname="Test Cases/Common Cases/Simple Examples/Flaky_Test_Cases/TC001_Login flaky test" status="PASSED">
+         <system-out><![CDATA[2018-12-26 15:50:19 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Flaky_Test_Cases/TC001_Login flaky test: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - else if (TestCaseSpecs.isAPI(testCaseCurrent)): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - else if (TestCaseSpecs.isFlakyTest(testCaseCurrent)): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:50:19 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-26 15:50:19 - [TEST_SUITE][PASSED] - Smoke_Test_Cases: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

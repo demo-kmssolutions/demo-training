@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,,,2018-12-26 16:10:18,2018-12-26 16:10:25,7.059s,FAILED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables,,,2018-12-26 16:10:19,2018-12-26 16:10:24,5.323s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 16:10:19,2018-12-26 16:10:19,0.120s,PASSED
+openBrowser(G_git_URL_default),,,2018-12-26 16:10:19,2018-12-26 16:10:24,4.859s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 16:10:24,2018-12-26 16:10:24,0.010s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables,,,2018-12-26 16:10:24,2018-12-26 16:10:25,0.302s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 16:10:24,2018-12-26 16:10:24,0.009s,PASSED
+openBrowser(G_git_URL_default),,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.004s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.010s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.244s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.007s,PASSED
+"openBrowser("""")",,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.003s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.006s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC_001_Login with global variables_SendKeys,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.404s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.006s,PASSED
+"waitForElementVisible(findTestObject(""Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub""), 60)",,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.186s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.006s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.025s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.006s,PASSED
+"openBrowser("""")",,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.003s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.006s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Flaky_Test_Cases/TC001_Login flaky test,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.023s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.012s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:10:25,2018-12-26 16:10:25,0.007s,PASSED

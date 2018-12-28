@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_the-internet home page validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>796e8093-0270-40b0-a21c-b2091c589478</testCaseGuid>
+   <variable>
+      <defaultValue>'Welcome to the-internet'</defaultValue>
+      <description></description>
+      <id>f42605da-8809-4255-a50b-d12e519c5d1a</id>
+      <masked>false</masked>
+      <name>expectedHeading</name>
+   </variable>
+   <variable>
+      <defaultValue>'The Internet'</defaultValue>
+      <description></description>
+      <id>1f2f198c-7010-4b6b-a948-853508152fb8</id>
+      <masked>false</masked>
+      <name>expectedTitle</name>
+   </variable>
+</TestCaseEntity>

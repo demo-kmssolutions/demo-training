@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke_Test_Cases,,,2018-12-26 15:47:40,2018-12-26 15:47:41,0.793s,PASSED
+,,,,,,
+Test Cases/Common Cases/Simple Examples/Flaky_Test_Cases/TC001_Login flaky test,,,2018-12-26 15:47:41,2018-12-26 15:47:41,0.249s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 15:47:41,2018-12-26 15:47:41,0.181s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 15:47:41,2018-12-26 15:47:41,0.015s,PASSED
