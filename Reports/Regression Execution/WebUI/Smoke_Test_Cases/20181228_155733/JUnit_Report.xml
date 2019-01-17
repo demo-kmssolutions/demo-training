@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke_Test_Cases" time="156" tests="14" failures="2" errors="0">
+   <testsuite name="Smoke_Test_Cases" tests="14" failures="2" errors="0" time="156" timestamp="2018-12-28 15:57:41" hostname="hungtran - GLKV1G2.kms.com.vn" id="Test Suites/Regression Execution/WebUI/Smoke_Test_Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Smoke_Test_Cases\\20181228_155733"/>
+         <property name="logFiles" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Smoke_Test_Cases\\20181228_155733\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Smoke_Test_Cases\\20181228_155733\\1545987519927.png, C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Smoke_Test_Cases\\20181228_155733\\1545987547565.png"/>
+         <property name="hostName" value="hungtran - GLKV1G2.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="5f784cfcd5e41368b947a6c360c4872d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:57:41 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding: Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Current window maximized
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - try: Current window maximized
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): Current window maximized
+
+2018-12-28 15:57:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:57:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:57:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-28 15:57:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:57:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 15:57:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 15:57:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:57:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-28 15:57:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:57:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:57:54 - [TEST_STEP][PASSED] - navigateToUrl("https://analytics.katalon.com/index.html"): Navigate to 'https://analytics.katalon.com/index.html' successfully
+
+2018-12-28 15:58:02 - [MESSAGE][PASSED] - Navigate to 'https://analytics.katalon.com/index.html' successfully
+
+2018-12-28 15:58:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 15:58:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 15:58:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username"), 10): Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username' is present
+
+2018-12-28 15:58:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username' is present
+
+2018-12-28 15:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username"), "demo.kmssolutions@gmail.com"): Text 'demo.kmssolutions@gmail.com' is set on object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username'
+
+2018-12-28 15:58:03 - [MESSAGE][PASSED] - Text 'demo.kmssolutions@gmail.com' is set on object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username'
+
+2018-12-28 15:58:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password"), 10): Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password' is present
+
+2018-12-28 15:58:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password' is present
+
+2018-12-28 15:58:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password"), "7Dxoto1EjKfQbGop/Ov+1g=="): Text ****** has been set on object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password'
+
+2018-12-28 15:58:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_password'
+
+2018-12-28 15:58:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In")): Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In' is clickable
+
+2018-12-28 15:58:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In' is clickable
+
+2018-12-28 15:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In")): Object: 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In' is clicked on
+
+2018-12-28 15:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/button_Log In' is clicked on
+
+2018-12-28 15:58:04 - [TEST_STEP][PASSED] - actual = getWindowTitle(): Current window's title is: 'Katalon Analytics (Beta)'
+
+2018-12-28 15:58:04 - [MESSAGE][PASSED] - Current window's title is: 'Katalon Analytics (Beta)'
+
+2018-12-28 15:58:04 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text 'Katalon Analytics (Beta)' and expected text 'Katalon Analytics (Beta)' are matched 
+
+2018-12-28 15:58:04 - [MESSAGE][PASSED] - Actual text 'Katalon Analytics (Beta)' and expected text 'Katalon Analytics (Beta)' are matched 
+
+2018-12-28 15:58:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 15:58:05 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:05 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - try: Browser is closed
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): Browser is closed
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 15:58:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:58:05 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables: Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:58:05 - [TEST_STEP][PASSED] - openBrowser(G_git_URL_default): Browser is opened with url: 'github.com/login'
+
+2018-12-28 15:58:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:58:13 - [MESSAGE][PASSED] - Browser is opened with url: 'github.com/login'
+
+2018-12-28 15:58:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 15:58:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 15:58:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub"), 60): Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 15:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 15:58:15 - [TEST_STEP][PASSED] - verifyTextPresent("Sign in to GitHub", false): Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 15:58:15 - [MESSAGE][PASSED] - Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 15:58:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username"), username): Keys 'demo-kmssolutions' sent to object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 15:58:15 - [MESSAGE][PASSED] - Keys 'demo-kmssolutions' sent to object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 15:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password"), password): Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 15:58:15 - [MESSAGE][PASSED] - Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 15:58:15 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in")): Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 15:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 15:58:17 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'GitHub'
+
+2018-12-28 15:58:17 - [MESSAGE][PASSED] - Current window's title is: 'GitHub'
+
+2018-12-28 15:58:17 - [TEST_STEP][PASSED] - verifyMatch(title, "GitHub", false): Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 15:58:17 - [MESSAGE][PASSED] - Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 15:58:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 15:58:18 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:18 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:58:18 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables: Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:18 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:58:19 - [TEST_STEP][PASSED] - openBrowser(G_git_URL_default): Browser is opened with url: 'github.com/login'
+
+2018-12-28 15:58:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:58:26 - [MESSAGE][PASSED] - Browser is opened with url: 'github.com/login'
+
+2018-12-28 15:58:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 15:58:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 15:58:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub"), G_Timeout_Small): Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 15:58:27 - [TEST_STEP][PASSED] - verifyTextPresent("Sign in to GitHub", false): Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 15:58:27 - [MESSAGE][PASSED] - Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 15:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username"), G_git_username_default): Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 15:58:27 - [MESSAGE][PASSED] - Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 15:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password"), G_git_password_default): Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 15:58:27 - [MESSAGE][PASSED] - Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in")): Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 15:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 15:58:29 - [TEST_STEP][PASSED] - actualDashboardTitle = getWindowTitle(): Current window's title is: 'GitHub'
+
+2018-12-28 15:58:29 - [MESSAGE][PASSED] - Current window's title is: 'GitHub'
+
+2018-12-28 15:58:29 - [TEST_STEP][PASSED] - verifyMatch(actualDashboardTitle, expectedDashboardTitle, false): Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 15:58:29 - [MESSAGE][PASSED] - Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 15:58:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 15:58:30 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:30 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE)" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-28 15:58:30 - [TEST_CASE][FAILED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE): Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:58:30 - [TEST_STEP][PASSED] - openBrowser(G_git_URL_default): Browser is opened with url: 'github.com/login'
+
+2018-12-28 15:58:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:58:38 - [MESSAGE][PASSED] - Browser is opened with url: 'github.com/login'
+
+2018-12-28 15:58:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 15:58:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 15:58:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub"), 60): Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 15:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 15:58:39 - [TEST_STEP][PASSED] - verifyTextPresent("Sign in to GitHub", false): Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 15:58:39 - [MESSAGE][PASSED] - Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 15:58:39 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username"), G_git_username_default): Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 15:58:39 - [MESSAGE][PASSED] - Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 15:58:39 - [TEST_STEP][FAILED] - setText(findTestObject("Wrong Element"), "Wrong Password", CONTINUE_ON_FAILURE): Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-12-28 15:58:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Wrong Element' does not exist
+
+2018-12-28 15:58:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-12-28 15:58:40 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Smoke_Test_Cases\\20181228_155733\\1545987519927.png]]
+
+2018-12-28 15:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password"), G_git_password_default): Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 15:58:40 - [MESSAGE][PASSED] - Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 15:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in")): Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 15:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 15:58:42 - [TEST_STEP][PASSED] - actualDashboardTitle = getWindowTitle(): Current window's title is: 'GitHub'
+
+2018-12-28 15:58:42 - [MESSAGE][PASSED] - Current window's title is: 'GitHub'
+
+2018-12-28 15:58:42 - [TEST_STEP][PASSED] - verifyMatch(actualDashboardTitle, expectedDashboardTitle, false): Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 15:58:42 - [MESSAGE][PASSED] - Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 15:58:42 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+
+
+2018-12-28 15:58:43 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 15:58:43 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:43 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[2018-12-28 15:58:30 - [TEST_CASE][FAILED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE): Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_005_Login_gitHub with global variables (Example for FLAKY TEST)" classname="Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_005_Login_gitHub with global variables (Example for FLAKY TEST)" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:58:43 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_005_Login_gitHub with global variables (Example for FLAKY TEST): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - else if (TestCaseSpecs.isAPI(testCaseCurrent)): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - else if (TestCaseSpecs.isFlakyTest(testCaseCurrent)): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseContext.skipThisTestCase(): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Record/Google/REC_001_SearchGoogle" classname="Test Cases/Common Cases/Simple Examples/Record/Google/REC_001_SearchGoogle" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:58:43 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Record/Google/REC_001_SearchGoogle: Test Cases/Common Cases/Simple Examples/Record/Google/REC_001_SearchGoogle
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:58:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:58:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:58:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:58:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/?gws_rd=ssl"): Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-12-28 15:58:50 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-12-28 15:58:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q"), 10): Object 'Object Repository/Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q' is present
+
+2018-12-28 15:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q' is present
+
+2018-12-28 15:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q"), "Katalon"): Text 'Katalon' is set on object 'Object Repository/Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q'
+
+2018-12-28 15:58:51 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Test Object/Product Name/GoogleSearch/Page_Google/input_ng nhp_q'
+
+2018-12-28 15:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/GoogleSearch/Page_Google/input_Xa_btnK")): Object: 'Object Repository/Test Object/Product Name/GoogleSearch/Page_Google/input_Xa_btnK' is clicked on
+
+2018-12-28 15:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/GoogleSearch/Page_Google/input_Xa_btnK' is clicked on
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:52 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login" classname="Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at REC_001_Login.run(REC_001_Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-28 15:58:52 - [TEST_CASE][FAILED] - Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login: Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at REC_001_Login.run(REC_001_Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:58:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:58:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-28 15:58:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:59:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:59:00 - [TEST_STEP][PASSED] - navigateToUrl("https://analytics.katalon.com/index.html"): Navigate to 'https://analytics.katalon.com/index.html' successfully
+
+2018-12-28 15:59:07 - [MESSAGE][PASSED] - Navigate to 'https://analytics.katalon.com/index.html' successfully
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username"), 10): Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username' is present
+
+2018-12-28 15:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/AnalyticsKatalon/Page_Katalon Analytics (Beta)/input_Log In_username' is present
+
+2018-12-28 15:59:07 - [TEST_STEP][FAILED] - setText(findTestObject("Page_Katalon Analytics (Beta)/input_Log In_username"), "demo.kmssolutions@gmail.com"): setText(findTestObject("Page_Katalon Analytics (Beta)/input_Log In_username"), "demo.kmssolutions@gmail.com") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at REC_001_Login.run(REC_001_Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+
+
+2018-12-28 15:59:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Katalon Analytics (Beta)/input_Log In_username' does not exist
+
+2018-12-28 15:59:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-12-28 15:59:07 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\WebUI\\Smoke_Test_Cases\\20181228_155733\\1545987547565.png]]
+
+2018-12-28 15:59:07 - [MESSAGE][FAILED] - setText(findTestObject("Page_Katalon Analytics (Beta)/input_Log In_username"), "demo.kmssolutions@gmail.com") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at REC_001_Login.run(REC_001_Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)
+
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:07 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[2018-12-28 15:58:52 - [TEST_CASE][FAILED] - Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login: Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at REC_001_Login.run(REC_001_Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Record/Login/REC_002_LoginGoogle" classname="Test Cases/Common Cases/Simple Examples/Record/Login/REC_002_LoginGoogle" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:07 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Record/Login/REC_002_LoginGoogle: Test Cases/Common Cases/Simple Examples/Record/Login/REC_002_LoginGoogle
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:07 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - return null: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:08 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_001_User access Split Testing validation" classname="Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_001_User access Split Testing validation" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:08 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_001_User access Split Testing validation: Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_001_User access Split Testing validation
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:59:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-28 15:59:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:59:12 - [TEST_STEP][PASSED] - navigateToUrl(G_TheInternetTestingSite): Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing"), 10): Object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing' is present
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing' is present
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing")): Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing' is clicked on
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_AB Testing' is clicked on
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest"), 10): Object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest' is present
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest' is present
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - actual = getText(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest")): Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest' is: 'No A/B Test'
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/lbl_NoABTest' is: 'No A/B Test'
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - verifyMatch(actual, "No A/B Test", false): Actual text 'No A/B Test' and expected text 'No A/B Test' are matched 
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Actual text 'No A/B Test' and expected text 'No A/B Test' are matched 
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:14 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_002_User login validation" classname="Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_002_User login validation" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:14 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_002_User login validation: Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_002_User login validation
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service Object/Product Name/Chain_API/RESTful/reqres/Basic_Auth")): Send request successfully
+
+2018-12-28 15:59:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:15 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation" classname="Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:15 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation: Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:59:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-28 15:59:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:59:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:59:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 15:59:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 15:59:21 - [TEST_STEP][PASSED] - navigateToUrl(G_TheInternetTestingSite): Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout_Large): Wait for page load successfully
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - actualHeading = getText(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading")): Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading' is: 'Welcome to the-internet'
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading' is: 'Welcome to the-internet'
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - verifyEqual(actualHeading, "Welcome to the-internet"): Actual object 'Welcome to the-internet' and expected object 'Welcome to the-internet' are equal
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Actual object 'Welcome to the-internet' and expected object 'Welcome to the-internet' are equal
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'The Internet'
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Current window's title is: 'The Internet'
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - verifyEqual(actualTitle, expectedTitle): Actual object 'The Internet' and expected object 'The Internet' are equal
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Actual object 'The Internet' and expected object 'The Internet' are equal
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:22 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Features/AA/Login Test/Test data hardcoding examples/TC001_Login with username and password specified in the test steps" classname="Test Cases/Main Cases/Features/AA/Login Test/Test data hardcoding examples/TC001_Login with username and password specified in the test steps" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:22 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Features/AA/Login Test/Test data hardcoding examples/TC001_Login with username and password specified in the test steps: Test Cases/Main Cases/Features/AA/Login Test/Test data hardcoding examples/TC001_Login with username and password specified in the test steps
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:59:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-28 15:59:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:59:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:59:27 - [TEST_STEP][PASSED] - navigateToUrl(G_JIRAKatalon_URL): Navigate to 'https://katalon.atlassian.net' successfully
+
+2018-12-28 15:59:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon.atlassian.net' successfully
+
+2018-12-28 15:59:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elHeader"), 60): Object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elHeader' is visible
+
+2018-12-28 15:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elHeader' is visible
+
+2018-12-28 15:59:33 - [TEST_STEP][PASSED] - verifyTextPresent("Log in to your account", false): Text 'Log in to your account' is present on page 
+
+2018-12-28 15:59:33 - [MESSAGE][PASSED] - Text 'Log in to your account' is present on page 
+
+2018-12-28 15:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elUsername"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elUsername'
+
+2018-12-28 15:59:34 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elUsername'
+
+2018-12-28 15:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elContinue")): Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elContinue' is clicked on
+
+2018-12-28 15:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elContinue' is clicked on
+
+2018-12-28 15:59:34 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elEmail"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elEmail'
+
+2018-12-28 15:59:38 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elEmail'
+
+2018-12-28 15:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elNext")): Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elNext' is clicked on
+
+2018-12-28 15:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elNext' is clicked on
+
+2018-12-28 15:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elPassword"), "sPiHQ&YEa6ST`de+"): Text 'sPiHQ&YEa6ST`de+' is set on object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elPassword'
+
+2018-12-28 15:59:39 - [MESSAGE][PASSED] - Text 'sPiHQ&YEa6ST`de+' is set on object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elPassword'
+
+2018-12-28 15:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elSignin")): Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elSignin' is clicked on
+
+2018-12-28 15:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elSignin' is clicked on
+
+2018-12-28 15:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elYes")): Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elYes' is clicked on
+
+2018-12-28 15:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Login Page/elYes' is clicked on
+
+2018-12-28 15:59:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Object/Product Name/JIRA_Katalon/Pages/Dashboard Page/elHeader"), 60): Object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Dashboard Page/elHeader' is visible
+
+2018-12-28 15:59:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/JIRA_Katalon/Pages/Dashboard Page/elHeader' is visible
+
+2018-12-28 15:59:51 - [TEST_STEP][PASSED] - verifyTextPresent("Katalon", false): Text 'Katalon' is present on page 
+
+2018-12-28 15:59:52 - [MESSAGE][PASSED] - Text 'Katalon' is present on page 
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:52 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/WebUI/DemoAUT/TC001_Verify dropdown list by Custom Keyword" classname="Test Cases/Main Cases/Product Name/WebUI/DemoAUT/TC001_Verify dropdown list by Custom Keyword" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:52 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/WebUI/DemoAUT/TC001_Verify dropdown list by Custom Keyword: Test Cases/Main Cases/Product Name/WebUI/DemoAUT/TC001_Verify dropdown list by Custom Keyword
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - navigateToUrl(G_TheInternetTestingSite): Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 15:59:52 - [MESSAGE][PASSED] - Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2018-12-28 15:59:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 15:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_dropdown")): Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_dropdown' is clicked on
+
+2018-12-28 15:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_dropdown' is clicked on
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout_Small): Wait for page load successfully
+
+2018-12-28 15:59:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - projects.demoUAT.VerifyExpectedAndActualOptionsInDropdown.VerifyExpectedAndActual(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/DropDown/select_Please select an option"), ["Please select an option", "Option 1", "Option 2"]): projects.demoUAT.VerifyExpectedAndActualOptionsInDropdown.VerifyExpectedAndActual is PASSED
+
+2018-12-28 15:59:53 - [MESSAGE][PASSED] - projects.demoUAT.VerifyExpectedAndActualOptionsInDropdown.VerifyExpectedAndActual is PASSED
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/DropDown/option_Please select an option"), STOP_ON_FAILURE): Object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/DropDown/option_Please select an option' is NOT clickable
+
+2018-12-28 15:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/DropDown/option_Please select an option' is NOT clickable
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - projects.demoUAT.VerifyDrodownValues_AlphabeticalOrder.verifyOptionsInDropdownInAphabeticalOrder(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/DropDown/select_Please select an option"), "Please select an option"): projects.demoUAT.VerifyDrodownValues_AlphabeticalOrder.verifyOptionsInDropdownInAphabeticalOrder is PASSED
+
+2018-12-28 15:59:53 - [MESSAGE][PASSED] - projects.demoUAT.VerifyDrodownValues_AlphabeticalOrder.verifyOptionsInDropdownInAphabeticalOrder is PASSED
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:53 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC001_Login with global variables_SendKeys" classname="Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC001_Login with global variables_SendKeys" status="PASSED">
+         <system-out><![CDATA[2018-12-28 15:59:53 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC001_Login with global variables_SendKeys: Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC001_Login with global variables_SendKeys
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 15:59:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 15:59:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-28 15:59:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 15:59:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 15:59:57 - [TEST_STEP][PASSED] - navigateToUrl($GlobalVariable.G_git_URL_default): Navigate to 'http://github.com/login' successfully
+
+2018-12-28 16:00:00 - [MESSAGE][PASSED] - Navigate to 'http://github.com/login' successfully
+
+2018-12-28 16:00:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub"), 60): Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 16:00:00 - [MESSAGE][PASSED] - Object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/h1_Sign_in_to_GitHub' is visible
+
+2018-12-28 16:00:00 - [TEST_STEP][PASSED] - verifyTextPresent("Sign in to GitHub", false): Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 16:00:00 - [MESSAGE][PASSED] - Text 'Sign in to GitHub' is present on page 
+
+2018-12-28 16:00:00 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username"), username): Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 16:00:00 - [MESSAGE][PASSED] - Text 'demo-kmssolutions' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Username'
+
+2018-12-28 16:00:00 - [TEST_STEP][PASSED] - setText(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password"), password): Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 16:00:00 - [MESSAGE][PASSED] - Text 'Kms@2018' is set on object 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_password'
+
+2018-12-28 16:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in")): Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 16:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/gitHub/Pages/Login Page/Page_Sign in to GitHub  GitHub/input_Sign_in' is clicked on
+
+2018-12-28 16:00:01 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'GitHub'
+
+2018-12-28 16:00:01 - [MESSAGE][PASSED] - Current window's title is: 'GitHub'
+
+2018-12-28 16:00:01 - [TEST_STEP][PASSED] - verifyMatch(title, "GitHub", false): Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 16:00:01 - [MESSAGE][PASSED] - Actual text 'GitHub' and expected text 'GitHub' are matched 
+
+2018-12-28 16:00:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 16:00:03 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 16:00:03 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC001_iFrame validation (Hard Coding)" classname="Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC001_iFrame validation (Hard Coding)" status="PASSED">
+         <system-out><![CDATA[2018-12-28 16:00:03 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC001_iFrame validation (Hard Coding): Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC001_iFrame validation (Hard Coding)
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 16:00:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 16:00:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 16:00:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 16:00:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 16:00:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 16:00:07 - [TEST_STEP][PASSED] - navigateToUrl(G_TheInternetTestingSite): Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 16:00:08 - [MESSAGE][PASSED] - Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 16:00:08 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2018-12-28 16:00:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 16:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames")): Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames' is clicked on
+
+2018-12-28 16:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames' is clicked on
+
+2018-12-28 16:00:08 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2018-12-28 16:00:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 16:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame")): Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame' is clicked on
+
+2018-12-28 16:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame' is clicked on
+
+2018-12-28 16:00:09 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2018-12-28 16:00:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 16:00:09 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/iframe_Formats_mce_0_ifr"), 10): null
+
+2018-12-28 16:00:09 - [TEST_STEP][PASSED] - actual = getText(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.")): Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.' is: 'Your content goes here.'
+
+2018-12-28 16:00:09 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/iframe_Formats_mce_0_ifr' does not exist
+
+2018-12-28 16:00:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.' is: 'Your content goes here.'
+
+2018-12-28 16:00:09 - [TEST_STEP][PASSED] - verifyEqual(actual, "Your content goes here."): Actual object 'Your content goes here.' and expected object 'Your content goes here.' are equal
+
+2018-12-28 16:00:09 - [MESSAGE][PASSED] - Actual object 'Your content goes here.' and expected object 'Your content goes here.' are equal
+
+2018-12-28 16:00:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 16:00:10 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 16:00:10 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC002_iFrame validation (CALL TEST CASE)" classname="Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC002_iFrame validation (CALL TEST CASE)" status="PASSED">
+         <system-out><![CDATA[2018-12-28 16:00:10 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC002_iFrame validation (CALL TEST CASE): Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC002_iFrame validation (CALL TEST CASE)
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation"), ["expectedHeading":"Welcome to the-internet", "expectedTitle":"The Internet"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation' successfully
+
+2018-12-28 16:00:10 - [TEST_CASE][PASSED] - Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation: Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation
+
+2018-12-28 16:00:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-28 16:00:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-28 16:00:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-28 16:00:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-28 16:00:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-28 16:00:14 - [TEST_STEP][PASSED] - navigateToUrl(G_TheInternetTestingSite): Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Navigate to 'http://192.168.107.43:7080/' successfully
+
+2018-12-28 16:00:15 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout_Large): Wait for page load successfully
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 16:00:15 - [TEST_STEP][PASSED] - actualHeading = getText(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading")): Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading' is: 'Welcome to the-internet'
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/h1_heading' is: 'Welcome to the-internet'
+
+2018-12-28 16:00:15 - [TEST_STEP][PASSED] - verifyEqual(actualHeading, "Welcome to the-internet"): Actual object 'Welcome to the-internet' and expected object 'Welcome to the-internet' are equal
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Actual object 'Welcome to the-internet' and expected object 'Welcome to the-internet' are equal
+
+2018-12-28 16:00:15 - [TEST_STEP][PASSED] - actualTitle = getWindowTitle(): Current window's title is: 'The Internet'
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Current window's title is: 'The Internet'
+
+2018-12-28 16:00:15 - [TEST_STEP][PASSED] - verifyEqual(actualTitle, expectedTitle): Actual object 'The Internet' and expected object 'The Internet' are equal
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Actual object 'The Internet' and expected object 'The Internet' are equal
+
+2018-12-28 16:00:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation' successfully
+
+2018-12-28 16:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames")): Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames' is clicked on
+
+2018-12-28 16:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/a_Frames' is clicked on
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout_Large): Wait for page load successfully
+
+2018-12-28 16:00:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame")): Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame' is clicked on
+
+2018-12-28 16:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/a_iFrame' is clicked on
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - waitForPageLoad(G_Timeout_Large): Wait for page load successfully
+
+2018-12-28 16:00:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/iframe_Formats_mce_0_ifr"), G_Timeout_Small): null
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - actual = getText(findTestObject("Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.")): Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.' is: 'Your content goes here.'
+
+2018-12-28 16:00:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/iframe_Formats_mce_0_ifr' does not exist
+
+2018-12-28 16:00:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Test Object/Product Name/The_Internet/Page_The Internet/Iframe/p_Your content goes here.' is: 'Your content goes here.'
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - verifyEqual(actual, expectedDefaultContentiFrame): Actual object 'Your content goes here.' and expected object 'Your content goes here.' are equal
+
+2018-12-28 16:00:16 - [MESSAGE][PASSED] - Actual object 'Your content goes here.' and expected object 'Your content goes here.' are equal
+
+2018-12-28 16:00:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-28 16:00:17 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-12-28 16:00:17 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - try: null
+
+2018-12-28 16:00:17 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-28 15:57:41 - [TEST_SUITE][FAILED] - Smoke_Test_Cases: Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-28 15:57:41 - [TEST_SUITE][FAILED] - Smoke_Test_Cases: Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$12.call(Unknown Source)
+	at TC_004_Login_gitHub with global variables (HANDLE FAILURE).run(TC_004_Login_gitHub with global variables (HANDLE FAILURE):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545987453903.run(TempTestSuite1545987453903.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

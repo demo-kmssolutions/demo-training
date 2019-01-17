@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify common API,,,2018-12-26 16:05:05,2018-12-26 16:05:16,11.057s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data),,,2018-12-26 16:05:06,2018-12-26 16:05:08,2.894s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:06,2018-12-26 16:05:06,0.115s,PASSED
+"responseListUsers = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:06,2018-12-26 16:05:08,1.566s,PASSED
+"verifyResponseStatusCode(responseListUsers, 200)",,Verify Status Code,2018-12-26 16:05:08,2018-12-26 16:05:08,0.012s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""per_page"", per_page)",,Verify response result of users API,2018-12-26 16:05:08,2018-12-26 16:05:08,0.045s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.023s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.016s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.019s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.022s,PASSED
+"responseUser = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_single_user"", [""URL"":G_reqres_URL, ""user_id"":user_id]))",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.757s,PASSED
+"verifyResponseStatusCode(responseUser, 200)",,Verify Status Code,2018-12-26 16:05:08,2018-12-26 16:05:08,0.001s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.id"", user_id)",,Verify response result of single user API,2018-12-26 16:05:08,2018-12-26 16:05:08,0.015s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.first_name"", first_name)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.014s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.last_name"", last_name)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.014s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.avatar"", avatar)",,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.015s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.009s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data),,,2018-12-26 16:05:08,2018-12-26 16:05:10,1.413s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:08,2018-12-26 16:05:08,0.010s,PASSED
+"responseListUsers = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:09,2018-12-26 16:05:09,0.641s,PASSED
+"verifyResponseStatusCode(responseListUsers, 200)",,Verify Status Code,2018-12-26 16:05:09,2018-12-26 16:05:09,0.002s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""per_page"", per_page)",,Verify response result of users API,2018-12-26 16:05:09,2018-12-26 16:05:09,0.023s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:09,2018-12-26 16:05:09,0.022s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:09,2018-12-26 16:05:09,0.018s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:09,2018-12-26 16:05:09,0.018s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:09,2018-12-26 16:05:09,0.015s,PASSED
+"responseUser = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_single_user"", [""URL"":G_reqres_URL, ""user_id"":user_id]))",,,2018-12-26 16:05:09,2018-12-26 16:05:10,0.575s,PASSED
+"verifyResponseStatusCode(responseUser, 200)",,Verify Status Code,2018-12-26 16:05:10,2018-12-26 16:05:10,0.001s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.id"", user_id)",,Verify response result of single user API,2018-12-26 16:05:10,2018-12-26 16:05:10,0.015s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.first_name"", first_name)",,,2018-12-26 16:05:10,2018-12-26 16:05:10,0.015s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.last_name"", last_name)",,,2018-12-26 16:05:10,2018-12-26 16:05:10,0.016s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.avatar"", avatar)",,,2018-12-26 16:05:10,2018-12-26 16:05:10,0.016s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:10,2018-12-26 16:05:10,0.010s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data),,,2018-12-26 16:05:10,2018-12-26 16:05:11,1.438s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:10,2018-12-26 16:05:10,0.007s,PASSED
+"responseListUsers = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:10,2018-12-26 16:05:11,0.609s,PASSED
+"verifyResponseStatusCode(responseListUsers, 200)",,Verify Status Code,2018-12-26 16:05:11,2018-12-26 16:05:11,0.002s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""per_page"", per_page)",,Verify response result of users API,2018-12-26 16:05:11,2018-12-26 16:05:11,0.040s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.017s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.024s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.016s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.016s,PASSED
+"responseUser = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_single_user"", [""URL"":G_reqres_URL, ""user_id"":user_id]))",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.632s,PASSED
+"verifyResponseStatusCode(responseUser, 200)",,Verify Status Code,2018-12-26 16:05:11,2018-12-26 16:05:11,0.001s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.id"", user_id)",,Verify response result of single user API,2018-12-26 16:05:11,2018-12-26 16:05:11,0.013s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.first_name"", first_name)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.011s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.last_name"", last_name)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.011s,PASSED
+"verifyElementPropertyValue(responseUser, ""data.avatar"", avatar)",,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.015s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.009s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data),,,2018-12-26 16:05:11,2018-12-26 16:05:12,0.914s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:11,2018-12-26 16:05:11,0.007s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.634s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Code,2018-12-26 16:05:12,2018-12-26 16:05:12,0.001s,PASSED
+"verifyElementPropertyValue(response, ""per_page"", per_page)",,Verify response result,2018-12-26 16:05:12,2018-12-26 16:05:12,0.014s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.018s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.015s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.014s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.013s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.006s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data),,,2018-12-26 16:05:12,2018-12-26 16:05:13,0.854s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:12,2018-12-26 16:05:12,0.006s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:12,2018-12-26 16:05:13,0.715s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Code,2018-12-26 16:05:13,2018-12-26 16:05:13,0.003s,PASSED
+"verifyElementPropertyValue(response, ""per_page"", per_page)",,Verify response result,2018-12-26 16:05:13,2018-12-26 16:05:13,0.040s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:13,2018-12-26 16:05:13,0.018s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:13,2018-12-26 16:05:13,0.015s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:13,2018-12-26 16:05:13,0.019s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:13,2018-12-26 16:05:13,0.018s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:13,2018-12-26 16:05:13,0.008s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data),,,2018-12-26 16:05:13,2018-12-26 16:05:14,0.675s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:13,2018-12-26 16:05:13,0.011s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:13,2018-12-26 16:05:14,0.584s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Code,2018-12-26 16:05:14,2018-12-26 16:05:14,0.001s,PASSED
+"verifyElementPropertyValue(response, ""per_page"", per_page)",,Verify response result,2018-12-26 16:05:14,2018-12-26 16:05:14,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:14,2018-12-26 16:05:14,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:14,2018-12-26 16:05:14,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:14,2018-12-26 16:05:14,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:14,2018-12-26 16:05:14,0.013s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:14,2018-12-26 16:05:14,0.005s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables),,,2018-12-26 16:05:14,2018-12-26 16:05:15,1.016s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:14,2018-12-26 16:05:14,0.006s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:14,2018-12-26 16:05:15,0.728s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Code,2018-12-26 16:05:15,2018-12-26 16:05:15,0.002s,PASSED
+"verifyElementPropertyValue(response, ""per_page"", per_page)",,Verify response result,2018-12-26 16:05:15,2018-12-26 16:05:15,0.035s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.017s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.015s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.016s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.015s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.004s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables),,,2018-12-26 16:05:15,2018-12-26 16:05:16,0.692s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.004s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.602s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Code,2018-12-26 16:05:15,2018-12-26 16:05:15,0.001s,PASSED
+"verifyElementPropertyValue(response, ""per_page"", per_page)",,Verify response result,2018-12-26 16:05:15,2018-12-26 16:05:15,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.015s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.017s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:15,2018-12-26 16:05:15,0.013s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:15,2018-12-26 16:05:16,0.005s,PASSED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables),,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.754s,PASSED
+Start listener action : beforeTestCase,,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.004s,PASSED
+"response = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.665s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Code,2018-12-26 16:05:16,2018-12-26 16:05:16,0.000s,PASSED
+"verifyElementPropertyValue(response, ""per_page"", per_page)",,Verify response result,2018-12-26 16:05:16,2018-12-26 16:05:16,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].id"", user_id)",,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].first_name"", first_name)",,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].last_name"", last_name)",,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.013s,PASSED
+"verifyElementPropertyValue(response, ""data["" + pos + ""].avatar"", avatar)",,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.013s,PASSED
+Start listener action : afterTestCase,,,2018-12-26 16:05:16,2018-12-26 16:05:16,0.005s,PASSED

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@name='username']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'username' and @placeholder = 'Email' and @type = 'email']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

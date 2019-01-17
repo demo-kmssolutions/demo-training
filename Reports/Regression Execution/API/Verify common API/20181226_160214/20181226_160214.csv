@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify common API,,,2018-12-26 16:02:21,2018-12-26 16:02:24,2.578s,FAILED
+,,,,,,
+Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data),,,2018-12-26 16:02:21,2018-12-26 16:02:24,2.211s,FAILED
+Start listener action : beforeTestCase,,,2018-12-26 16:02:22,2018-12-26 16:02:22,0.061s,PASSED
+"responseListUsers = sendRequest(findTestObject(""Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users"", [""URL"":G_reqres_URL, ""page"":page]))",,,2018-12-26 16:02:22,2018-12-26 16:02:24,1.628s,PASSED
+"verifyResponseStatusCode(responseListUsers, 200)",,Verify Status Code,2018-12-26 16:02:24,2018-12-26 16:02:24,0.018s,PASSED
+"verifyElementPropertyValue(responseListUsers, ""per_page"", per_page)",,Verify response result of users API,2018-12-26 16:02:24,2018-12-26 16:02:24,0.064s,FAILED
+Start listener action : afterTestCase,,,2018-12-26 16:02:24,2018-12-26 16:02:24,0.012s,PASSED

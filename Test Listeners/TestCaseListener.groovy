@@ -14,6 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable as GlobalVariable
+import utilities.TestCaseSpecs
 
 import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
@@ -22,16 +23,32 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
+
 class TestCaseListener {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl(GlobalVariable.G_JIRAKatalon_URL);
+	def beforeTestCase(TestCaseContext testCaseContext) {
+		
+		//get Test case current from test execution
+		TestCase testCaseCurrent = getCurrentTestCase(testCaseContext)
+		
+		try {
+			if (TestCaseSpecs.isWebUI(testCaseCurrent)){
+			  WebUI.openBrowser('');
+			  WebUI.maximizeWindow();
+			} else if (TestCaseSpecs.isAPI(testCaseCurrent)) {
+			  println 'Do sth...'
+			} else if (TestCaseSpecs.isFlakyTest(testCaseCurrent)) {
+			  //skip flaky tests
+			  testCaseContext.skipThisTestCase()
+			}
+		} catch (Exception e) {
+			e.printStackTrace()
+		}
+
 	}
 
 	/**
@@ -39,7 +56,26 @@ class TestCaseListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+	def afterTestCase(TestCaseContext testCaseContext) {
 
+		//get Test case current from test execution
+		TestCase testCaseCurrent = getCurrentTestCase(testCaseContext)
+		
+		try {
+			if (TestCaseSpecs.isWebUI(testCaseCurrent)) {
+				WebUI.closeBrowser();
+			} else if (TestCaseSpecs.isAPI(testCaseCurrent)) {
+				println 'Do sth...'
+			}
+		} catch (Exception e) {
+			e.printStackTrace()
+		}
+		
+	}
+
+	private getCurrentTestCase(TestCaseContext testCaseContext) {
+		String testCaseId = testCaseContext.getTestCaseId()
+		TestCase testCase = findTestCase(testCaseId)
+		return testCase
 	}
 }

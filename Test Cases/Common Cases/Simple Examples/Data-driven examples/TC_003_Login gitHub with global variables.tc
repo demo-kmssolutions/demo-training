@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_Login gitHub with global variables</name>
+   <tag>implementedBy:GUI</tag>
+   <comment></comment>
+   <testCaseGuid>b03f676f-08d5-4809-bba4-f535301f0726</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.username_default</defaultValue>
+      <description>This is user in default profile</description>
+      <id>0aa23540-81f0-42c2-a999-c07f2e810143</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password_default</defaultValue>
+      <description>This is password in default profile</description>
+      <id>c1455ea1-43fe-4b16-a9f5-5427a08db21d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'GitHub'</defaultValue>
+      <description></description>
+      <id>0fb46332-4bf9-4002-b648-757c17a56371</id>
+      <masked>false</masked>
+      <name>expectedDashboardTitle</name>
+   </variable>
+</TestCaseEntity>

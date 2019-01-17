@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DemoAUT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c8074ccc-1295-4422-af8a-b0858977bc61</testSuiteGuid>
+   <testCaseLink>
+      <guid>21387946-ad87-4c62-8d41-4b440e5e74ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Cases/Product Name/WebUI/DemoAUT/TC001_Verify dropdown list by Custom Keyword</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8ce5180-8254-4901-bb21-57c341de5004</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1be37429-1d73-409f-a100-492614d0a430</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

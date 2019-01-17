@@ -4,7 +4,6 @@
    <name>Suite_1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-30T17:01:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +14,7 @@
       <guid>a60437d0-77f2-4421-977e-924156e0db95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login with global variables</testCaseId>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,6 +26,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c1455ea1-43fe-4b16-a9f5-5427a08db21d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0fb46332-4bf9-4002-b648-757c17a56371</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

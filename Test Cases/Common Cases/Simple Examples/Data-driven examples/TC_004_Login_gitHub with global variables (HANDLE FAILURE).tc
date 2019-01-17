@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_004_Login_gitHub with global variables (HANDLE FAILURE)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ca9f7c0-e579-44d0-b571-c710dbd44711</testCaseGuid>
+   <variable>
+      <defaultValue>'GitHub'</defaultValue>
+      <description></description>
+      <id>a9565e82-5c76-4881-aaec-d6dea0c3e1ca</id>
+      <masked>false</masked>
+      <name>expectedDashboardTitle</name>
+   </variable>
+</TestCaseEntity>

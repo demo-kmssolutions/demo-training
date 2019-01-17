@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify common API" time="6" tests="3" failures="2" errors="0">
+   <testsuite name="Verify common API" tests="3" failures="2" errors="0" time="6" timestamp="2018-12-26 15:59:37" hostname="hungtran - GLKV1G2.kms.com.vn" id="Test Suites/Regression Execution/API/Verify common API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\API\\Verify common API\\20181226_155926"/>
+         <property name="logFiles" value="C:\\Users\\hungtran\\git\\demo-training\\Reports\\Regression Execution\\API\\Verify common API\\20181226_155926\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hungtran - GLKV1G2.kms.com.vn"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data)" classname="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-26 15:59:37 - [TEST_CASE][FAILED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:37 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-26 15:59:38 - [TEST_STEP][PASSED] - responseListUsers = sendRequest(findTestObject("Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users", ["URL":G_reqres_URL, "page":page])): Send request successfully
+
+2018-12-26 15:59:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responseListUsers, 200): Verify response status code successfully
+
+2018-12-26 15:59:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-26 15:59:39 - [TEST_STEP][FAILED] - verifyElementPropertyValue(responseListUsers, "per_page", per_page): verifyElementPropertyValue(responseListUsers, "per_page", per_page) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+
+
+2018-12-26 15:59:39 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '3'
+
+2018-12-26 15:59:39 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+
+2018-12-26 15:59:39 - [MESSAGE][FAILED] - verifyElementPropertyValue(responseListUsers, "per_page", per_page) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[2018-12-26 15:59:37 - [TEST_CASE][FAILED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" classname="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC002_API_reqres_list_users_validation_(using Test Data).run(TC002_API_reqres_list_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-26 15:59:39 - [TEST_CASE][FAILED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC002_API_reqres_list_users_validation_(using Test Data).run(TC002_API_reqres_list_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:39 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users", ["URL":G_reqres_URL, "page":page])): Send request successfully
+
+2018-12-26 15:59:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-26 15:59:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-26 15:59:40 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "per_page", per_page): verifyElementPropertyValue(response, "per_page", per_page) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC002_API_reqres_list_users_validation_(using Test Data).run(TC002_API_reqres_list_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+
+
+2018-12-26 15:59:40 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '3'
+
+2018-12-26 15:59:40 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+
+2018-12-26 15:59:40 - [MESSAGE][FAILED] - verifyElementPropertyValue(response, "per_page", per_page) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC002_API_reqres_list_users_validation_(using Test Data).run(TC002_API_reqres_list_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)
+
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[2018-12-26 15:59:39 - [TEST_CASE][FAILED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC002_API_reqres_list_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC002_API_reqres_list_users_validation_(using Test Data).run(TC002_API_reqres_list_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" classname="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" status="PASSED">
+         <system-out><![CDATA[2018-12-26 15:59:40 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:40 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users", ["URL":G_reqres_URL, "page":page])): Send request successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "per_page", per_page): Verify element property value successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].id", user_id): Verify element property value successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].first_name", first_name): Verify element property value successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].last_name", last_name): Verify element property value successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].avatar", avatar): Verify element property value successfully
+
+2018-12-26 15:59:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" classname="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" status="PASSED">
+         <system-out><![CDATA[2018-12-26 15:59:41 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-26 15:59:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users", ["URL":G_reqres_URL, "page":page])): Send request successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "per_page", per_page): Verify element property value successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].id", user_id): Verify element property value successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].first_name", first_name): Verify element property value successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].last_name", last_name): Verify element property value successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].avatar", avatar): Verify element property value successfully
+
+2018-12-26 15:59:42 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" classname="Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)" status="PASSED">
+         <system-out><![CDATA[2018-12-26 15:59:42 - [TEST_CASE][PASSED] - Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables): Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC001_API_reqres_list_users_validation_(using Variables)
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null
+
+2018-12-26 15:59:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users", ["URL":G_reqres_URL, "page":page])): Send request successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "per_page", per_page): Verify element property value successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].id", user_id): Verify element property value successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].first_name", first_name): Verify element property value successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].last_name", last_name): Verify element property value successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[" + pos + "].avatar", avatar): Verify element property value successfully
+
+2018-12-26 15:59:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - testCaseCurrent = getCurrentTestCase(testCaseContext): null
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - testCaseId = testCaseContext.getTestCaseId(): null
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseId): null
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - return testCase: null
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - try: null
+
+2018-12-26 15:59:43 - [TEST_STEP][PASSED] - if (TestCaseSpecs.isWebUI(testCaseCurrent)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-26 15:59:37 - [TEST_SUITE][FAILED] - Verify common API: Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-26 15:59:37 - [TEST_SUITE][FAILED] - Verify common API: Test Cases/Main Cases/Product Name/API/Chain_API/reqres/TC003_API_reqres_ChainAPI_users_validation_(using Test Data) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value '3')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at TC003_API_reqres_ChainAPI_users_validation_(using Test Data).run(TC003_API_reqres_ChainAPI_users_validation_(using Test Data):24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545814769519.run(TempTestSuite1545814769519.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Verify dropdown list by Custom Keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>374ebccd-5d47-43f1-975b-c5f93bb75785</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>f8ce5180-8254-4901-bb21-57c341de5004</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>1be37429-1d73-409f-a100-492614d0a430</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

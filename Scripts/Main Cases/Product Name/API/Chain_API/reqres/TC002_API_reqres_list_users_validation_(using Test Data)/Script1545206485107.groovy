@@ -12,21 +12,14 @@ import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+import enums.StatusCode
 import internal.GlobalVariable as GlobalVariable
 
 ResponseObject response = WS.sendRequest(findTestObject('Web Service Object/Product Name/Chain_API/RESTful/reqres/GET_list_users', [('URL') : GlobalVariable.G_reqres_URL
-	, ('page') : page]))
+	, ('page') : 1]))
 
-'Verify Status Code'
-WS.verifyResponseStatusCode(response, 200)
+'Verify Status Code using Custom Keyword'
+WS.verifyResponseStatusCode(response, StatusCode.SUCCESSFUL)
 
-'Verify response result'
-WS.verifyElementPropertyValue(response, "per_page", per_page)
 
-WS.verifyElementPropertyValue(response, "data["+pos+"].id", user_id)
-
-WS.verifyElementPropertyValue(response, "data["+pos+"].first_name", first_name)
-
-WS.verifyElementPropertyValue(response, "data["+pos+"].last_name", last_name)
-
-WS.verifyElementPropertyValue(response, "data["+pos+"].avatar", avatar)

@@ -17,11 +17,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Kms@2018'</initValue>
-      <name>G_password_default</name>
+      <name>G_git_password_default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://192.168.107.73:7080/'</initValue>
+      <initValue>'http://192.168.107.43:7080/'</initValue>
       <name>G_TheInternetTestingSite</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -32,7 +32,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>30</initValue>
-      <name>G_Time_Out_Large</name>
+      <name>G_Timeout_Large</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -43,5 +43,10 @@
       <description>URL of the Application Under Test (AUT)</description>
       <initValue>'https://katalon.atlassian.net'</initValue>
       <name>G_JIRAKatalon_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://demoaut.katalon.com/profile.php#login'</initValue>
+      <name>G_demoUAT_URL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

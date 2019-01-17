@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Smoke_Test_Cases</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f3e2c344-68c3-4e3d-bf41-e5959945e2ba</testSuiteGuid>
+   <testCaseLink>
+      <guid>3d6acb92-3a6c-4fe3-9c6d-2b927ac457fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_001_Login_Katalon_Analytics hardcoding</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4ec5460-9d3b-47cf-a53e-474ed3965480</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee18d008-6db3-465d-aec5-9863067cb057</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_002_Login gitHub with default value of variables</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b213d858-686b-488c-87a8-57e0c4f0f2c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>432c1bcb-4a7d-4dc8-9f01-d26217ed0a6a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db0bbf74-c35d-4cf3-8130-745f33a8b686</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_003_Login gitHub with global variables</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0aa23540-81f0-42c2-a999-c07f2e810143</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1455ea1-43fe-4b16-a9f5-5427a08db21d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0fb46332-4bf9-4002-b648-757c17a56371</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b3d03cbb-a1a3-4a1a-8b24-ce1f33827f73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_004_Login_gitHub with global variables (HANDLE FAILURE)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a9565e82-5c76-4881-aaec-d6dea0c3e1ca</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bdc93e49-ef4a-4638-9c4f-6412501b6a57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Data-driven examples/TC_005_Login_gitHub with global variables (Example for FLAKY TEST)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d60d2782-d631-44e4-a8a6-a996714ab208</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Record/Google/REC_001_SearchGoogle</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff75691f-2ee5-4816-a0ff-d3b0cdcfef04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Record/Login/REC_001_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eae9a46f-ed61-4981-ba30-d68678c0d465</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Record/Login/REC_002_LoginGoogle</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8c5902b2-df89-43c2-ac24-df34f0ecec21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_001_User access Split Testing validation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bb9fe27-e57b-4d8a-a6b7-5f0f397620e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/Record/The_Internet/REC_002_User login validation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>058fc1b0-31a6-4353-abe6-055f3410f32f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Cases/Simple Examples/the-internet/TC001_the-internet home page validation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f42605da-8809-4255-a50b-d12e519c5d1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f2f198c-7010-4b6b-a948-853508152fb8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a382a57-5763-4cae-82e8-4e807edbd201</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Cases/Features/AA/Login Test/Test data hardcoding examples/TC001_Login with username and password specified in the test steps</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>688ba448-d49c-4814-a06a-6098139e040e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Cases/Product Name/WebUI/DemoAUT/TC001_Verify dropdown list by Custom Keyword</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8ce5180-8254-4901-bb21-57c341de5004</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1be37429-1d73-409f-a100-492614d0a430</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5e1f661a-a219-4b44-afdb-373df637cd37</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Cases/Product Name/WebUI/KAT_SendKeys/TC001_Login with global variables_SendKeys</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3137617-6aca-4669-8753-dd144def537a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5962d3a-6a99-4d68-a0ad-34daa5dc3d0d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a837745-7a51-4b3c-b800-9bffbb2cefca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC001_iFrame validation (Hard Coding)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be57a8f2-c58f-4296-8214-4047f47aad41</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Cases/Product Name/WebUI/The_Internet/iFrame/TC002_iFrame validation (CALL TEST CASE)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05b58efe-2c98-4f9f-b48b-df289347b6c9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
